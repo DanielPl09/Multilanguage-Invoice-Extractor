@@ -1,6 +1,6 @@
 # Multilanguage Invoice Extractor
 
-🌐 Exciting Announcement! 🚀 Just launched a Multilanguage Invoice Extractor using Streamlit, Google-GenerativeAI, Python-Dotenv, and PyPDF2! 📑💻
+🌐 Exciting Announcement! 🚀 launched a Multilanguage Invoice Extractor using Streamlit, Google-GenerativeAI, Python-Dotenv, and PyPDF2! 📑💻
 
 ## Overview
 
