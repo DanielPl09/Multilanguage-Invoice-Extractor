@@ -50,6 +50,7 @@ submit=st.button("Tell me about the invoice")
 
 input_prompt="""
 you are an expert in understaing invoices. The attached document contains an image of an invoice in Hebrew. Convert the invoice image to coherent text containing key value pairs and table data of the given image.
+Reconstruct data in table and print it in a table format if it appeared in a table originally in the document. Read carefully the text in Hebrew and don't make mistakes about it. If you aren't sure about it print N/A. 
 Dont make up any infromation which is not explictily in the invoice, and print all the information in Hebrew.
 """
 
