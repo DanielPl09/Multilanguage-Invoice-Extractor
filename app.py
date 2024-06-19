@@ -48,7 +48,8 @@ if uploaded_file is not None:
 submit=st.button("Tell me about the invoice")
 
 input_prompt="""
-you are an expert in understaing invoices.We will upload a image as invoice and you will have to answer any question based on the uploaded invoice image
+you are an expert in understaing invoices. The attached document contains an image of an invoice in Hebrew. Convert the invoice image to coherent text containing key value pairs and table data of the given image.
+Dont make up any infromation which is not explictily in the invoice, and print all the information in Hebrew.
 """
 
 if submit:
